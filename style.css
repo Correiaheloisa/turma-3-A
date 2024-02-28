@@ -1,17 +1,17 @@
- body {
+body {
     font-family: Arial, sans-serif;
-    background-color: #8b1b1b8f;
+    background-color: #d8d5d5;
 }
 
 header {
-    background: linear-gradient(to right, #b86363, #f0f0f0);
+    background: linear-gradient(to right, #705454, #c54e4e);
     padding: 20px;
     text-align: center;
 }
 
 h1 {
     margin: 0;
-    color: #460a0a;
+    color: #f8f3f3;
     font-size: 2em;
     position: relative;
 }
@@ -26,7 +26,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #333;
+    color: #ddc3c3;
     text-decoration: none;
     font-weight: bold;
 }
@@ -70,7 +70,6 @@ th, td {
     width: 100%;
     color: #333;
 }
-
 #titulo img {
     position: absolute;
     top: -10px;
