@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <h1 id="titulo">Já Comprou?? <img src="3 Sem Título_20240229215108.png" alt="Pequeno Desenho" width="100"></h1>
+        <h1 id="titulo">Já Comprou?? <img src="3 Sem Título_20240229215108.png" alt="Pequeno Desenho" width="130"></h1>
         <nav>
             <ul> 
                 <li><a href="#precos">Preços</a></li>
@@ -39,18 +39,59 @@
                 </tr>
             </table>
         </section>
-        <section id="exemplos">
-            <h2>Exemplos</h2>
-            <div class="gallery">
-<img src="exemplo1.jpg" alt="Exemplo 1">
+    </table>
+</section>
+<section id="exemplos">
+    <h2>Exemplos</h2>
+    <div id="exemplos-detalhes">
+        <h2>Exemplos de Desenhos</h2>
+        <p>Aqui você pode ver alguns exemplos de desenhos e escolher o estilo que mais gosta:</p>
+        <ul>
+            <li>Rosto</li>
+            <li>Busto</li>
+            <li>Corpo Inteiro</li>
+        </ul>
+        <div class="quadro">
+            <h3>O que eu desenho</h3>
+            <ul>
+                <img src="exemplo1.jpg" alt="Exemplo 1">
                 <img src="exemplo2.jpg" alt="Exemplo 2">
                 <img src="exemplo3.jpg" alt="Exemplo 3">
+            </ul>
+        </div>
+        <div class="margem-lateral">
+            <div class="quadro">
+                <h3>O que eu não faço</h3>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <p><a href="#exemplos-detalhes" class="exemplos-link">Ver Exemplos</a></p>
         </section>
     </main>
     <footer>
-        <p>&copy;⁠☞2024 Luah</p>
+        <p>&copy; ☞2024 Luah</p>
     </footer>
-</body>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var exemplosLink = document.querySelector('.exemplos-link');
+            var exemplosDetalhes = document.getElementById('exemplos-detalhes');
+
+            exemplosLink.addEventListener('click', function() {
+                if (exemplosDetalhes.style.display === 'none' || exemplosDetalhes.style.display === '') {
+                    exemplosDetalhes.style.display = 'block';
+                    exemplosLink.innerHTML = 'Fechar Exemplos';
+                } else {
+                    exemplosDetalhes.style.display = 'none';
+                    exemplosLink.innerHTML = 'Ver Exemplos';
+                }
+            });
+        });
+    </script>
+</body>
 </html>
