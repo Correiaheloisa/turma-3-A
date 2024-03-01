@@ -1,77 +1,56 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #d8d5d5;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-header {
-    background: linear-gradient(to right, #705454, #c54e4e);
-    padding: 20px;
-    text-align: center;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Comissões de Desenhos</title>
+    <meta name="theme-color" content="#ff00ff">
+</head>
 
-h1 {
-    margin: 0;
-    color: #f8f3f3;
-    font-size: 2em;
-    position: relative;
-}
+<body>
+    <header>
+        <h1 id="titulo">Já Comprou?? <img src="canto-superior-direito.png" alt="Pequeno Desenho"></h1>
+        <nav>
+            <ul>
+                <li><a href="#precos">Preços</a></li>
+                <li><a href="#exemplos">Exemplos</a></li>
+                <li><a href="https://www.instagram.com/Luah3._" target="_blank">Instagram</a></li>
+            </ul>
+        </nav>
+</header>
+    <main>
+        <section id="precos">
+            <h2>Preços</h2>
+            <table>
+                <tr>
+                    <th>Tipo de Desenho</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td>Retrato</td>
+                    <td>R$ 50,00</td>
+                </tr>
+                <tr>
+                    <td>Ilustração</td>
+                    <td>R$ 80,00</td>
+                </tr>
+            </table>
+        </section>
+        <section id="exemplos">
+            <h2>Exemplos</h2>
+            <div class="gallery">
+<img src="exemplo1.jpg" alt="Exemplo 1">
+                <img src="exemplo2.jpg" alt="Exemplo 2">
+                <img src="exemplo3.jpg" alt="Exemplo 3">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;⁠☞2024 Luah</p>
+    </footer>
+</body>
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
- nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #ddc3c3;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
-}
-
-section {
-    margin-bottom: 40px;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: left;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-}
-
-.gallery img {
-    width: 100%;
-    height: auto;
-}
- footer {
-    background-color: #f0f0f0;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    color: #333;
-}
-#titulo img {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-}
+</html>
