@@ -103,3 +103,12 @@ th, td {
 .margem-lateral {
     margin-left: 20px;
 }
+footer {
+    text-align: center;
+    padding: lem;
+;background-color: #705454;
+color: #f0f0f0;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
