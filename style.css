@@ -1,17 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Arial", ;
+    font-size: 20px;
+    text-align: center;
     background-color: #d8d5d5;
 }
 
 header {
     background: linear-gradient(to right, #705454, #c54e4e);
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 
 h1 {
+    text-shadow: 4px 4px #682f2f;
+    -webkit-text-stroke-color: #e4cfcf;
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
     margin: 0;
-    color: #f8f3f3;
     font-size: 2em;
     position: relative;
 }
@@ -108,7 +113,8 @@ footer {
     padding: lem;
 ;background-color: #705454;
 color: #f0f0f0;
+padding: 0px 0;
 position: fixed;
 width: 100%;
-bottom: 0;
+bottom: 0%;
 }
