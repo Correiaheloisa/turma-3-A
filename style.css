@@ -88,7 +88,7 @@ th, td {
 
 #exemplos-detalhes {
     display: none;
-    padding: 20px;
+    padding: 60px;
     margin-top: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -101,9 +101,9 @@ th, td {
 .quadro {
     border: 1px solid #ccc;
     padding: 10px;
-    margin-top: 20px;
-    background-color: #f0f0f0; /* Cor de fundo do quadro */
-    color: #333; /* Cor do texto dentro do quadro */
+    margin-top: 40px;
+    background-color: #e2dbdb; /* Cor de fundo do quadro */
+    color: #885353; /* Cor do texto dentro do quadro */
 }
 .margem-lateral {
     margin-left: 20px;
